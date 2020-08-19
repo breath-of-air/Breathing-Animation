@@ -29,7 +29,7 @@
                 <Ellipse.Triggers>
                     <EventTrigger RoutedEvent="Ellipse.Loaded">
                         <BeginStoryboard>
-                            <Storyboard RepeatBehavior="Forever">
+                            <Storyboard RepeatBehavior="Forever" AutoReverse="True">
                                 <DoubleAnimationUsingKeyFrames 
                                     
                                     Storyboard.TargetName="MyAnimatedTranslateTransform"
@@ -68,9 +68,38 @@
                         <ScaleTransform/>
                         <SkewTransform/>
                         <RotateTransform/>
-                        <TranslateTransform X="35" Y="-50"/>
+                        <TranslateTransform X="35" Y="-50" x:Name="Second"/>
                     </TransformGroup>
                 </Ellipse.RenderTransform>
+
+                <Ellipse.Triggers>
+                    <EventTrigger RoutedEvent="Ellipse.Loaded">
+                        <BeginStoryboard>
+                            <Storyboard RepeatBehavior="Forever" AutoReverse="True">
+                                <DoubleAnimationUsingKeyFrames 
+                                    
+                                    Storyboard.TargetName="Second"
+                                    Storyboard.TargetProperty="X"
+                                    Duration="0:0:4">
+
+                                    <LinearDoubleKeyFrame Value="35" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="0" KeyTime="0:0:4" />
+
+                                </DoubleAnimationUsingKeyFrames>
+                                <DoubleAnimationUsingKeyFrames
+                                    Storyboard.TargetName="Second"
+                                    Storyboard.TargetProperty="Y"
+                                    Duration="0:0:4">
+
+                                    <LinearDoubleKeyFrame Value="-50" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="0" KeyTime="0:0:4" />
+
+                                </DoubleAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </Ellipse.Triggers>
+
             </Ellipse>
             
             <Ellipse x:Name="eTherd"
@@ -85,9 +114,29 @@
                         <ScaleTransform/>
                         <SkewTransform/>
                         <RotateTransform/>
-                        <TranslateTransform X="-60"/>
+                        <TranslateTransform X="-60" x:Name="Therd"/>
                     </TransformGroup>
                 </Ellipse.RenderTransform>
+
+                <Ellipse.Triggers>
+                    <EventTrigger RoutedEvent="Ellipse.Loaded">
+                        <BeginStoryboard>
+                            <Storyboard RepeatBehavior="Forever" AutoReverse="True">
+                                <DoubleAnimationUsingKeyFrames 
+                                    
+                                    Storyboard.TargetName="Therd"
+                                    Storyboard.TargetProperty="X"
+                                    Duration="0:0:4">
+
+                                    <LinearDoubleKeyFrame Value="-60" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="0" KeyTime="0:0:4" />
+
+                                </DoubleAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </Ellipse.Triggers>
+
             </Ellipse>
             
             <Ellipse x:Name="eFour"
@@ -102,9 +151,29 @@
                         <ScaleTransform/>
                         <SkewTransform/>
                         <RotateTransform/>
-                        <TranslateTransform X="60"/>
+                        <TranslateTransform X="60" x:Name="Four"/>
                     </TransformGroup>
                 </Ellipse.RenderTransform>
+
+                <Ellipse.Triggers>
+                    <EventTrigger RoutedEvent="Ellipse.Loaded">
+                        <BeginStoryboard>
+                            <Storyboard RepeatBehavior="Forever" AutoReverse="True">
+                                <DoubleAnimationUsingKeyFrames 
+                                    
+                                    Storyboard.TargetName="Four"
+                                    Storyboard.TargetProperty="X"
+                                    Duration="0:0:4">
+
+                                    <LinearDoubleKeyFrame Value="60" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="0" KeyTime="0:0:4" />
+
+                                </DoubleAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </Ellipse.Triggers>
+
             </Ellipse>
             
             <Ellipse x:Name="eFive"
@@ -119,9 +188,38 @@
                         <ScaleTransform/>
                         <SkewTransform/>
                         <RotateTransform/>
-                        <TranslateTransform X="-35" Y="50"/>
+                        <TranslateTransform X="-35" Y="50" x:Name="Five"/>
                     </TransformGroup>
                 </Ellipse.RenderTransform>
+
+                <Ellipse.Triggers>
+                    <EventTrigger RoutedEvent="Ellipse.Loaded">
+                        <BeginStoryboard>
+                            <Storyboard RepeatBehavior="Forever" AutoReverse="True">
+                                <DoubleAnimationUsingKeyFrames 
+                                    
+                                    Storyboard.TargetName="Five"
+                                    Storyboard.TargetProperty="X"
+                                    Duration="0:0:4">
+
+                                    <LinearDoubleKeyFrame Value="-35" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="0" KeyTime="0:0:4" />
+
+                                </DoubleAnimationUsingKeyFrames>
+                                <DoubleAnimationUsingKeyFrames
+                                    Storyboard.TargetName="Five"
+                                    Storyboard.TargetProperty="Y"
+                                    Duration="0:0:4">
+
+                                    <LinearDoubleKeyFrame Value="50" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="0" KeyTime="0:0:4" />
+
+                                </DoubleAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </Ellipse.Triggers>
+
             </Ellipse>
             
             <Ellipse x:Name="eSix"
@@ -136,9 +234,38 @@
                         <ScaleTransform/>
                         <SkewTransform/>
                         <RotateTransform/>
-                        <TranslateTransform X="35" Y="50"/>
+                        <TranslateTransform X="35" Y="50" x:Name="Six"/>
                     </TransformGroup>
                 </Ellipse.RenderTransform>
+
+                <Ellipse.Triggers>
+                    <EventTrigger RoutedEvent="Ellipse.Loaded">
+                        <BeginStoryboard>
+                            <Storyboard RepeatBehavior="Forever" AutoReverse="True">
+                                <DoubleAnimationUsingKeyFrames 
+                                    
+                                    Storyboard.TargetName="Six"
+                                    Storyboard.TargetProperty="X"
+                                    Duration="0:0:4">
+
+                                    <LinearDoubleKeyFrame Value="35" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="0" KeyTime="0:0:4" />
+
+                                </DoubleAnimationUsingKeyFrames>
+                                <DoubleAnimationUsingKeyFrames
+                                    Storyboard.TargetName="Six"
+                                    Storyboard.TargetProperty="Y"
+                                    Duration="0:0:4">
+
+                                    <LinearDoubleKeyFrame Value="50" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="0" KeyTime="0:0:4" />
+
+                                </DoubleAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </Ellipse.Triggers>
+
             </Ellipse>
             
         </Canvas>
