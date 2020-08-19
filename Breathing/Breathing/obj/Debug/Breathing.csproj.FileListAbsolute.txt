@@ -1,0 +1,15 @@
+C:\Users\Andrei\Desktop\Breathing-Animation\Breathing\Breathing\bin\Debug\Breathing.exe.config
+C:\Users\Andrei\Desktop\Breathing-Animation\Breathing\Breathing\bin\Debug\Breathing.exe
+C:\Users\Andrei\Desktop\Breathing-Animation\Breathing\Breathing\bin\Debug\Breathing.pdb
+C:\Users\Andrei\Desktop\Breathing-Animation\Breathing\Breathing\obj\Debug\Breathing.csprojAssemblyReference.cache
+C:\Users\Andrei\Desktop\Breathing-Animation\Breathing\Breathing\obj\Debug\MainWindow.g.cs
+C:\Users\Andrei\Desktop\Breathing-Animation\Breathing\Breathing\obj\Debug\App.g.cs
+C:\Users\Andrei\Desktop\Breathing-Animation\Breathing\Breathing\obj\Debug\Breathing_MarkupCompile.cache
+C:\Users\Andrei\Desktop\Breathing-Animation\Breathing\Breathing\obj\Debug\Breathing_MarkupCompile.lref
+C:\Users\Andrei\Desktop\Breathing-Animation\Breathing\Breathing\obj\Debug\MainWindow.baml
+C:\Users\Andrei\Desktop\Breathing-Animation\Breathing\Breathing\obj\Debug\Breathing.g.resources
+C:\Users\Andrei\Desktop\Breathing-Animation\Breathing\Breathing\obj\Debug\Breathing.Properties.Resources.resources
+C:\Users\Andrei\Desktop\Breathing-Animation\Breathing\Breathing\obj\Debug\Breathing.csproj.GenerateResource.cache
+C:\Users\Andrei\Desktop\Breathing-Animation\Breathing\Breathing\obj\Debug\Breathing.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Desktop\Breathing-Animation\Breathing\Breathing\obj\Debug\Breathing.exe
+C:\Users\Andrei\Desktop\Breathing-Animation\Breathing\Breathing\obj\Debug\Breathing.pdb
