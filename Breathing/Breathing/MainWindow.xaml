@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Breathing"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Breathing" Height="450" Width="800" >
 
     <Grid Background="#000" RenderTransformOrigin="0.5,0.5" >
         <Canvas Height="125" Width="125" RenderTransformOrigin="0.5,0.5">
@@ -27,7 +27,7 @@
                                 Storyboard.TargetProperty="Angle"
                                 Duration="0:0:4.2">
 
-                                <LinearDoubleKeyFrame Value="0" KeyTime="0:0:0" />
+                                <LinearDoubleKeyFrame Value="0" KeyTime="0:0:0.1" />
                                 <LinearDoubleKeyFrame Value="180" KeyTime="0:0:4"/>
 
                             </DoubleAnimationUsingKeyFrames>
@@ -62,7 +62,7 @@
                                     Storyboard.TargetProperty="X"
                                     Duration="0:0:4.2">
 
-                                    <LinearDoubleKeyFrame Value="-35" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="-35" KeyTime="0:0:0.1" />
                                     <LinearDoubleKeyFrame Value="0" KeyTime="0:0:4" />
 
                                 </DoubleAnimationUsingKeyFrames>
@@ -71,7 +71,7 @@
                                     Storyboard.TargetProperty="Y"
                                     Duration="0:0:4.2">
 
-                                    <LinearDoubleKeyFrame Value="-50" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="-50" KeyTime="0:0:0.1" />
                                     <LinearDoubleKeyFrame Value="0" KeyTime="0:0:4" />
 
                                 </DoubleAnimationUsingKeyFrames>
@@ -81,7 +81,7 @@
                                     Storyboard.TargetProperty="ScaleX"
                                     Duration="0:0:4.2">
 
-                                    <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0.1" />
                                     <LinearDoubleKeyFrame Value="0.15" KeyTime="0:0:4" />
 
                                 </DoubleAnimationUsingKeyFrames>
@@ -91,7 +91,7 @@
                                     Storyboard.TargetProperty="ScaleY"
                                     Duration="0:0:4.2">
 
-                                    <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0.1" />
                                     <LinearDoubleKeyFrame Value="0.15" KeyTime="0:0:4" />
 
                                 </DoubleAnimationUsingKeyFrames>
@@ -129,7 +129,7 @@
                                     Storyboard.TargetProperty="X"
                                     Duration="0:0:4.2">
 
-                                    <LinearDoubleKeyFrame Value="35" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="35" KeyTime="0:0:0.1" />
                                     <LinearDoubleKeyFrame Value="0" KeyTime="0:0:4" />
 
                                 </DoubleAnimationUsingKeyFrames>
@@ -138,7 +138,7 @@
                                     Storyboard.TargetProperty="Y"
                                     Duration="0:0:4.2">
 
-                                    <LinearDoubleKeyFrame Value="-50" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="-50" KeyTime="0:0:0.1" />
                                     <LinearDoubleKeyFrame Value="0" KeyTime="0:0:4" />
 
                                 </DoubleAnimationUsingKeyFrames>
@@ -148,7 +148,7 @@
                                     Storyboard.TargetProperty="ScaleX"
                                     Duration="0:0:4.2">
 
-                                    <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0.1" />
                                     <LinearDoubleKeyFrame Value="0.15" KeyTime="0:0:4" />
 
                                 </DoubleAnimationUsingKeyFrames>
@@ -158,7 +158,7 @@
                                     Storyboard.TargetProperty="ScaleY"
                                     Duration="0:0:4.2">
 
-                                    <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0.1" />
                                     <LinearDoubleKeyFrame Value="0.15" KeyTime="0:0:4" />
 
                                 </DoubleAnimationUsingKeyFrames>
@@ -196,7 +196,7 @@
                                     Storyboard.TargetProperty="X"
                                     Duration="0:0:4.2">
 
-                                    <LinearDoubleKeyFrame Value="-60" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="-60" KeyTime="0:0:0.1" />
                                     <LinearDoubleKeyFrame Value="0" KeyTime="0:0:4" />
 
                                 </DoubleAnimationUsingKeyFrames>
@@ -206,7 +206,7 @@
                                     Storyboard.TargetProperty="ScaleX"
                                     Duration="0:0:4.2">
 
-                                    <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0.1" />
                                     <LinearDoubleKeyFrame Value="0.15" KeyTime="0:0:4" />
 
                                 </DoubleAnimationUsingKeyFrames>
@@ -216,7 +216,7 @@
                                     Storyboard.TargetProperty="ScaleY"
                                     Duration="0:0:4.2">
 
-                                    <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0.1" />
                                     <LinearDoubleKeyFrame Value="0.15" KeyTime="0:0:4" />
 
                                 </DoubleAnimationUsingKeyFrames>
@@ -254,7 +254,7 @@
                                     Storyboard.TargetProperty="X"
                                     Duration="0:0:4.2">
 
-                                    <LinearDoubleKeyFrame Value="60" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="60" KeyTime="0:0:0.1" />
                                     <LinearDoubleKeyFrame Value="0" KeyTime="0:0:4" />
 
                                 </DoubleAnimationUsingKeyFrames>
@@ -264,7 +264,7 @@
                                     Storyboard.TargetProperty="ScaleX"
                                     Duration="0:0:4.2">
 
-                                    <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0.1" />
                                     <LinearDoubleKeyFrame Value="0.15" KeyTime="0:0:4" />
 
                                 </DoubleAnimationUsingKeyFrames>
@@ -274,7 +274,7 @@
                                     Storyboard.TargetProperty="ScaleY"
                                     Duration="0:0:4.2">
 
-                                    <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0.1" />
                                     <LinearDoubleKeyFrame Value="0.15" KeyTime="0:0:4" />
 
                                 </DoubleAnimationUsingKeyFrames>
@@ -312,7 +312,7 @@
                                     Storyboard.TargetProperty="X"
                                     Duration="0:0:4.2">
 
-                                    <LinearDoubleKeyFrame Value="-35" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="-35" KeyTime="0:0:0.1" />
                                     <LinearDoubleKeyFrame Value="0" KeyTime="0:0:4" />
 
                                 </DoubleAnimationUsingKeyFrames>
@@ -321,7 +321,7 @@
                                     Storyboard.TargetProperty="Y"
                                     Duration="0:0:4.2">
 
-                                    <LinearDoubleKeyFrame Value="50" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="50" KeyTime="0:0:0.1" />
                                     <LinearDoubleKeyFrame Value="0" KeyTime="0:0:4" />
 
                                 </DoubleAnimationUsingKeyFrames>
@@ -331,7 +331,7 @@
                                     Storyboard.TargetProperty="ScaleX"
                                     Duration="0:0:4.2">
 
-                                    <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0.1" />
                                     <LinearDoubleKeyFrame Value="0.15" KeyTime="0:0:4" />
 
                                 </DoubleAnimationUsingKeyFrames>
@@ -341,7 +341,7 @@
                                     Storyboard.TargetProperty="ScaleY"
                                     Duration="0:0:4.2">
 
-                                    <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0.1" />
                                     <LinearDoubleKeyFrame Value="0.15" KeyTime="0:0:4" />
 
                                 </DoubleAnimationUsingKeyFrames>
@@ -379,7 +379,7 @@
                                     Storyboard.TargetProperty="X"
                                     Duration="0:0:4.2">
 
-                                    <LinearDoubleKeyFrame Value="35" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="35" KeyTime="0:0:0.1" />
                                     <LinearDoubleKeyFrame Value="0" KeyTime="0:0:4" />
 
                                 </DoubleAnimationUsingKeyFrames>
@@ -388,7 +388,7 @@
                                     Storyboard.TargetProperty="Y"
                                     Duration="0:0:4.2">
 
-                                    <LinearDoubleKeyFrame Value="50" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="50" KeyTime="0:0:0.1" />
                                     <LinearDoubleKeyFrame Value="0" KeyTime="0:0:4" />
 
                                 </DoubleAnimationUsingKeyFrames>
@@ -398,7 +398,7 @@
                                     Storyboard.TargetProperty="ScaleX"
                                     Duration="0:0:4.2">
 
-                                    <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0.1" />
                                     <LinearDoubleKeyFrame Value="0.15" KeyTime="0:0:4" />
 
                                 </DoubleAnimationUsingKeyFrames>
@@ -408,7 +408,7 @@
                                     Storyboard.TargetProperty="ScaleY"
                                     Duration="0:0:4.2">
 
-                                    <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0" />
+                                    <LinearDoubleKeyFrame Value="1" KeyTime="0:0:0.1" />
                                     <LinearDoubleKeyFrame Value="0.15" KeyTime="0:0:4" />
 
                                 </DoubleAnimationUsingKeyFrames>

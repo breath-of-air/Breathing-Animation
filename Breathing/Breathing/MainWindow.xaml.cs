@@ -24,7 +24,5 @@ namespace Breathing
         {
             InitializeComponent();
         }
-
-        
     }
 }
